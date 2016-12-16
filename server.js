@@ -38,6 +38,6 @@ const server = http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify(resolved(time)));
 });
-
-server.listen(4000);
-console.log("port 4000");
+let port = process.env.PORT || 4000;
+server.listen(port);
+console.log("port" + port);
