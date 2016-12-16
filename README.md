@@ -1,6 +1,7 @@
 # TimeAPI
 
-This API will return a date sent to it in json format
+This API will return a date sent to it in json format. You can access
+the API online at https://mini-time-api.herokuapp.com/ Please do not abuse.
 
 # Usage
 If you clone this repo you can run it with "node server.js", at default it
